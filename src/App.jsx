@@ -11,9 +11,14 @@ function App() {
     setShowItems(true)
   }
 
+  const clearItems = () =>{
+    setShowItems(false)
+  }
+
   return(
-    <div>
+    <div className='container'>
       <button onClick={loadItems}>Display menu items</button>
+      <button onClick={clearItems}>Clear menu items</button>
       {showItems && <MenuItems />}
     </div>
   )

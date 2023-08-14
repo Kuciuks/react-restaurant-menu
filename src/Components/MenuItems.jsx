@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-
+import '../Styles/MenuItems.css'
 
 export default function MenuItems(){
 
@@ -12,17 +12,15 @@ export default function MenuItems(){
     },[])
 
     return(
-        <div>
+        <div className='item-container'>
             {data ? (
-                <ul>
-                    {data.map((item) => (
-                        <li key={item.id}>
-                            <h1>{item.name}</h1>
-                            <p>{item.description}</p>
-                            <h2>{item.price}</h2>
-                        </li>
-                    ))}
-                </ul>
+                data.map((item) => (
+                    <div key={item.id} className='item-div'>
+                        <h1>{item.name}</h1>
+                        <p>{item.description}</p>
+                        <h2>{item.price}</h2>
+                    </div>
+                ))
             ):(
                 <h1>Loading data...</h1>
             )}
