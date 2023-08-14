@@ -1,0 +1,75 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Classic Burger",
+      "description": "Juicy beef patty with lettuce, tomato, and special sauce.",
+      "price": 10.99,
+      "category": "Burgers"
+    },
+    {
+      "id": 2,
+      "name": "Margherita Pizza",
+      "description": "Traditional pizza topped with fresh mozzarella, tomatoes, and basil.",
+      "price": 12.49,
+      "category": "Pizzas"
+    },
+    {
+      "id": 3,
+      "name": "Chicken Alfredo",
+      "description": "Creamy pasta with grilled chicken and Alfredo sauce.",
+      "price": 14.95,
+      "category": "Pasta"
+    },
+    {
+      "id": 4,
+      "name": "Caesar Salad",
+      "description": "Crisp romaine lettuce, croutons, Parmesan cheese, and Caesar dressing.",
+      "price": 8.99,
+      "category": "Salads"
+    },
+    {
+      "id": 5,
+      "name": "Sushi Platter",
+      "description": "Assortment of fresh sushi rolls and sashimi.",
+      "price": 18.75,
+      "category": "Sushi"
+    },
+    {
+      "id": 6,
+      "name": "Grilled Salmon",
+      "description": "Flaky grilled salmon with lemon butter sauce.",
+      "price": 16.99,
+      "category": "Seafood"
+    },
+    {
+      "id": 7,
+      "name": "Mushroom Risotto",
+      "description": "Creamy Arborio rice cooked with mushrooms and Parmesan.",
+      "price": 11.95,
+      "category": "Risotto"
+    },
+    {
+      "id": 8,
+      "name": "Vegetable Stir-Fry",
+      "description": "Assorted vegetables stir-fried in a savory sauce, served over rice.",
+      "price": 9.49,
+      "category": "Vegetarian"
+    },
+    {
+      "id": 9,
+      "name": "BBQ Ribs",
+      "description": "Slow-cooked pork ribs smothered in barbecue sauce, served with coleslaw.",
+      "price": 19.99,
+      "category": "BBQ"
+    },
+    {
+      "id": 10,
+      "name": "Tiramisu",
+      "description": "Classic Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cheese.",
+      "price": 6.75,
+      "category": "Desserts"
+    }
+  ]
+}
+
