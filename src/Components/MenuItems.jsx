@@ -10,16 +10,19 @@ export default function MenuItems(){
             .then((response) => response.json())
             .then((data) => setData(data))
     },[])
-    console.log(data)
 
     return(
         <div>
             {data ? (
-                <div>    
-                    <h1>{data[0].id} menu item</h1>
-                    <h2>{data[0].name}</h2>
-                    <h3>Price: {data[0].price}</h3>
-                </div>
+                <ul>
+                    {data.map((item) => (
+                        <li key={item.id}>
+                            <h1>{item.name}</h1>
+                            <p>{item.description}</p>
+                            <h2>{item.price}</h2>
+                        </li>
+                    ))}
+                </ul>
             ):(
                 <h1>Loading data...</h1>
             )}
